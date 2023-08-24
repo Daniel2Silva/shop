@@ -1,0 +1,35 @@
+.header-top {
+    padding: 10px 40px;
+    text-align: center;
+}
+
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-itens{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.pesquisa{
+    width: 500px;
+    height: 40px;
+    border-radius: 32px;
+    border: none;
+    background-color: var(--cor-p3);
+}
+
+.botoes-direito :nth-child(2){
+    margin-left: 20px;
+    
+}
+
+.f2-m a{
+    color: var(--cor-p1);
+}
+
