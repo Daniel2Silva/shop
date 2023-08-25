@@ -32,9 +32,16 @@
 
 
 
+
 /* espacamento */
 .container{
     max-width: 1300px;
     margin: 0 auto;
     padding: 20px 40px;
+}
+
+@media(max-width:900px){
+    .container{
+        padding: 20px 20px;
+    }
 }
