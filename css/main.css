@@ -32,6 +32,7 @@
 
 .numeros-item {
     max-width: 200px;
+    align-items: center;
 }
 
 .botao {
@@ -41,17 +42,13 @@
     border-radius: 50px;
     border: none;
     font-size: 1rem;
+    margin-bottom: 5px;
 }
 
 
-.barra::before {
-    content: "";
-    background: var(--cor-p5);
-    width: 2px;
-    position: absolute;
-    height: 60px;
-    margin-left: 120px;
-}
+
+
+
 
 
 
@@ -75,14 +72,14 @@
         gap: 30px;
     }
 
-    .botao{
+    .botao {
         text-align: center;
         width: 100%;
-}
+    }
 }
 
 @media(max-width:600px) {
-    .cor-bg-p3 > div{
+    .cor-bg-p3>div {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -91,15 +88,13 @@
         font-size: 2.5rem;
         line-height: 2.5rem;
     }
-    .numeros-item .n{
+
+    .numeros-item .n {
         font-size: 2rem;
-        padding: 0 10px;
     }
-    .barra::before {
-        margin-left: 90px;
-    }
+
     .numeros {
-        gap: 10px;
+        gap: 30px;
     }
 
 }
