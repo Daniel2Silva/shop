@@ -23,6 +23,10 @@
     background-color: var(--cor-p3);
 }
 
+.pesquisa::placeholder{
+    padding-left: 10px;
+}
+
 .botoes-direito :nth-child(2){
     margin-left: 20px;
     
@@ -32,8 +36,12 @@
     color: var(--cor-p1);
 }
 
+.menu-mobile{
+    display: none;
+}
+
 @media(max-width:1000px){
-    .pesquisa{
+    .barra-pesquisa{
         width: 150px;
     }
 
@@ -66,9 +74,10 @@
         border-bottom: 1px solid var(--cor-p3);
     }
 
-    .pesquisa{
+    .barra-pesquisa{
         display: none;
     }
+
     .botoes-direito{
         display: none;
     }

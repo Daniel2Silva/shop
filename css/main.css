@@ -47,6 +47,14 @@
 
 
 
+.marcas-itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
 
 
 
@@ -76,6 +84,9 @@
         text-align: center;
         width: 100%;
     }
+    .marcas-itens img{
+    }
+
 }
 
 @media(max-width:600px) {
@@ -96,5 +107,12 @@
     .numeros {
         gap: 30px;
     }
+    .banner{
+        margin-left: 20px;
+    }
+    .marcas-itens img{
+        width: 100px;
+    }
+
 
 }
