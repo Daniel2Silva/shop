@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 65px;
 }
 
 .cor-bg-p3>div {
@@ -21,6 +22,7 @@
 .lado-direito {
     align-items: center;
     flex-basis: 50%;
+    position: relative;
 }
 
 .numeros {
@@ -51,7 +53,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+
+.decoracao1{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 20px;
+}
+.decoracao2{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 70px;
 }
 
 
@@ -84,9 +97,6 @@
         text-align: center;
         width: 100%;
     }
-    .marcas-itens img{
-    }
-
 }
 
 @media(max-width:600px) {
@@ -104,6 +114,8 @@
         font-size: 2rem;
     }
 
+
+
     .numeros {
         gap: 30px;
     }
@@ -111,8 +123,7 @@
         margin-left: 20px;
     }
     .marcas-itens img{
-        width: 100px;
+        width: 110px;
     }
-
 
 }

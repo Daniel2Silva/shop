@@ -2,11 +2,27 @@
     padding: 10px 40px;
     text-align: center;
 }
+.top-fixo{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+}
 
 .container-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 39px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 10px 40px;
+    max-width: 1300px;
+    z-index: 999;
 }
 
 .nav-itens{
@@ -72,6 +88,10 @@
         padding: 1rem 0px;
         margin: 0 1.5rem;
         border-bottom: 1px solid var(--cor-p3);
+    }
+
+    .container-header{
+        padding: 10px 20px;
     }
 
     .barra-pesquisa{
