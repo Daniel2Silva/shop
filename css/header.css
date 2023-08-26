@@ -8,21 +8,22 @@
     left: 0;
     right: 0;
     z-index: 999;
-
 }
+
+
+.header-fixo{
+    position: fixed;
+    top: 38px;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
 
 .container-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 39px;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    padding: 10px 40px;
-    max-width: 1300px;
-    z-index: 999;
 }
 
 .nav-itens{
@@ -67,7 +68,7 @@
     .nav-itens{
         display: block;
         position: absolute;
-        top: 120px;
+        top: 80px;
         background: var(--cor-p2);
         width: 100%;
         left: 0px;
@@ -88,10 +89,6 @@
         padding: 1rem 0px;
         margin: 0 1.5rem;
         border-bottom: 1px solid var(--cor-p3);
-    }
-
-    .container-header{
-        padding: 10px 20px;
     }
 
     .barra-pesquisa{
