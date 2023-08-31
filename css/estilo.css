@@ -1,5 +1,10 @@
+.estilo-bg{
+    margin-top: 80px;
+}
+
 .container-estilo{
     border-radius: 15px;
+    padding-bottom: 70px;
 }
 
 .container-estilo h4{
