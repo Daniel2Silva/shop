@@ -55,9 +55,30 @@
     padding: 50px 0px;
     display: flex;
     justify-content: space-between;
-    gap: 11px;
 }
 
+
+
+.lista-footer li{
+    padding: 12px 0;
+}
+
+.icone-tam{
+    font-size: 35px;
+    color: var(--cor-p1);
+}
+
+
+.icones-footer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.txt-footer{
+    padding: 35px 0px;
+    width: 300px;
+}
 
 @media(max-width:1050px) {
 
