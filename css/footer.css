@@ -31,6 +31,10 @@
     background-color: var(--cor-p2);
 }
 
+.input-email::placeholder{
+    padding-left: 10px;
+}
+
 
 
 
@@ -40,6 +44,10 @@
     width: 600px;
 }
 
+.footer-itens{
+    line-height: 1;
+    padding-bottom: 20px;
+}
 
 
 
@@ -85,6 +93,16 @@
     }
 
     .footer{
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
     }
+    .footer-itens{
+        width: 100%;
+    }
+
+    .footer{
+        font-size: 1rem;
+    }
+        
 }
