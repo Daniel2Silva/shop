@@ -14,12 +14,12 @@ img{
 
 [data-scroll = "animado"]{
     opacity: 0;
-    transition: .5s;
+    transition: .6s;
     transform: translateY(40px)
 }
 
 [data-scroll="animado"].ativo{
     opacity: 1;
-    transition: .5s;
+    transition: .6s;
     transform: translateY(0px);
 }
