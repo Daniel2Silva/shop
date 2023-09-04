@@ -10,3 +10,16 @@ img{
     max-width: 100%;
     display: block;
 }
+
+
+[data-scroll = "animado"]{
+    opacity: 0;
+    transition: .5s;
+    transform: translateY(40px)
+}
+
+[data-scroll="animado"].ativo{
+    opacity: 1;
+    transition: .5s;
+    transform: translateY(0px);
+}

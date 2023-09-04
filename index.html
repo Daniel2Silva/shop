@@ -25,18 +25,18 @@
       </div>
     </div>
     <header>
-      <div class="header-fixo cor-bg-p2">
+      <div class="header-fixo cor-bg-p2" data-scroll="animado">
         <div class="container cor-bg-p2">
           <div class="container-header cor-bg-p2">
             <div>
               <a class="logo cor-p1" href="">SHOP.CO</a>
             </div>
             <nav class="nav">
-              <ul class="nav-itens f2-m">
-                <li><a href="">Loja</a></li>
-                <li><a href="">Em promoção</a></li>
-                <li><a href="">Lançamentos</a></li>
-                <li><a href="">+Vendidos</a></li>
+              <ul class="nav-itens f2-m" data-menu="nav">
+                <li><a href="#loja">Loja</a></li>
+                <li><a href="#promocao">Em promoção</a></li>
+                <li><a href="#vendido">+Vendidos</a></li>
+                <li><a href="#categoria">Categorias</a></li>
               </ul>
             </nav>
             <div class="barra-pesquisa">
@@ -50,13 +50,13 @@
               <span class="material-symbols-outlined"> shopping_cart </span>
               <span class="material-symbols-outlined"> account_circle </span>
             </div>
-            <button class="menu-mobile"><span class="hamburger"></span></button>
+            <button class="menu-mobile" data-menu="btn-mobile"><span class="hamburger"></span></button>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <section class="cor-bg-p3">
+      <section class="cor-bg-p3" id="loja" data-scroll="animado">
         <div class="container">
           <div class="container-main">
             <div class="lado-esquerdo">
@@ -91,7 +91,7 @@
         </div>
       </section>
       <section>
-        <div class="marcas-bg cor-bg-p1">
+        <div class="marcas-bg cor-bg-p1" data-scroll="animado">
           <section class="container">
             <ul class="marcas-itens">
               <li><img src="./img/prada-logo-1 1.svg" alt="" /></li>
@@ -102,8 +102,8 @@
         </div>
       </section>
     </main>
-    <section>
-      <div class="promocao-bg">
+    <section >
+      <div class="promocao-bg" id="promocao" data-scroll="animado">
         <div class="container">
           <h2 class="f1-m">EM PROMOÇÃO</h2>
           <section class="promocao">
@@ -148,7 +148,7 @@
       </div>
     </section>
     <section>
-      <div class="mais-vendido-bg">
+      <div class="mais-vendido-bg" id="vendido" data-scroll="animado">
         <div class="container">
           <h3 class="f1-m">MAIS VENDIDOS</h3>
           <section class="mais-vendido">
@@ -193,7 +193,7 @@
       </div>
     </section>
     <section>
-      <div class="estilo-bg">
+      <div class="estilo-bg" id="categoria" data-scroll="animado">
         <div class="container">
           <div class="container-estilo cor-bg-p3">
             <h4 class="f1-m">ENCONTRE ESTILOS</h4>
@@ -216,7 +216,7 @@
       </div>
     </section>
     <section>
-      <div class="comentarios-bg">
+      <div class="comentarios-bg" data-scroll="animado">
         <div class="container">
           <h5 class="f1-m">NOSSOS CLIENTES COMENTAM</h5>
           <div class="comentarios">
@@ -252,7 +252,7 @@
       </div>
     </section>
     <footer>
-      <div class="footer-bg cor-bg-p3">
+      <div class="footer-bg cor-bg-p3" data-scroll="animado">
         <div class="container">
           <div class="inscricao cor-bg-p1">
             <div>
@@ -319,6 +319,6 @@
         </div>
       </div>
     </footer>
-    <script src="script.js"></script>
+    <script type="module" src="./js/script.js"></script>
   </body>
 </html>

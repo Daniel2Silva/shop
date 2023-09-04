@@ -30,6 +30,11 @@
     gap: 30px;
 }
 
+.nav-itens a:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--cor-p1);
+}
+
 .pesquisa{
     width: 300px;
     height: 40px;
