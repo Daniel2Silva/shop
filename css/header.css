@@ -30,6 +30,11 @@
     gap: 30px;
 }
 
+.contamenu{
+    display: flex;
+    gap: 10px;
+}
+
 .nav-itens a:hover{
     padding-bottom: 10px;
     border-bottom: 2px solid var(--cor-p1);
@@ -98,9 +103,10 @@
         display: none;
     }
 
-    .botoes-direito{
+    .cart{
         display: none;
     }
+
     .menu-mobile{
         background: transparent;
         border: none;

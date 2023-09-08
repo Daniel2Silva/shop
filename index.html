@@ -46,11 +46,15 @@
                 placeholder="search"
               />
             </div>
-            <div class="botoes-direito">
-              <span class="material-symbols-outlined"> shopping_cart </span>
-              <span class="material-symbols-outlined"> account_circle </span>
+            <div class="contamenu">
+              <span class="material-symbols-outlined cart"> shopping_cart </span>
+              <span class="material-symbols-outlined conta" data-modal="conta">
+                account_circle
+              </span>
+              <button class="menu-mobile" data-menu="btn-mobile">
+                <span class="hamburger"></span>
+              </button>
             </div>
-            <button class="menu-mobile" data-menu="btn-mobile"><span class="hamburger"></span></button>
           </div>
         </div>
       </div>
@@ -102,7 +106,7 @@
         </div>
       </section>
     </main>
-    <section >
+    <section>
       <div class="promocao-bg" id="promocao" data-scroll="animado">
         <div class="container">
           <h2 class="f1-m">EM PROMOÇÃO</h2>
@@ -272,7 +276,10 @@
           <div class="footer">
             <section class="footer-itens">
               <a class="logo cor-p1" href="">SHOP.CO</a>
-              <p class="f2-m cor-p4 txt-footer">We have clothes that suits your style and which you re proud to wear. From women to men.</p>
+              <p class="f2-m cor-p4 txt-footer">
+                We have clothes that suits your style and which you re proud to
+                wear. From women to men.
+              </p>
               <div class="icones-footer">
                 <a href="https://www.facebook.com" target="_blank">
                   <i class="fab fa-facebook icone-tam"></i>
@@ -280,11 +287,8 @@
                 <a href="https://www.linkedin.com" target="_blank">
                   <i class="fab fa-linkedin icone-tam"></i>
                 </a>
-                <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                >
-                <i class="fab fa-instagram icone-tam"></i>
+                <a href="https://www.instagram.com" target="_blank">
+                  <i class="fab fa-instagram icone-tam"></i>
                 </a>
               </div>
             </section>
@@ -319,6 +323,23 @@
         </div>
       </div>
     </footer>
+
+    <section class="container-modal" data-modal="modal">
+      <div class="modal">
+        <button class="fechar" data-modal="fechar">X</button>
+        <form action="" class="login">
+          <div>
+            <label for="email">Email</label>
+            <input type="text" for="email" id="email" />
+          </div>
+          <div>
+            <label for="senha">Senha</label>
+            <input type="password" for="senha" id="senha" />
+          </div>
+          <button type="submit" class="btn-enviar">Entrar</button>
+        </form>
+      </div>
+    </section>
     <script type="module" src="./js/script.js"></script>
   </body>
 </html>
