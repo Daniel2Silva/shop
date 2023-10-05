@@ -11,22 +11,36 @@
     align-items: center;
 }
 
+
+.login-input{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .login{
     display: flex;
     background: var(--cor-p2);
     flex-direction: column;
     min-width: 350px;
-    padding: 60px;
-    gap: 30px;
-    border-radius: 14px;
+    padding: 60px 0px;
+    gap: 20px;
+    border-radius: 9px;
     align-items: center;
     position: relative;
 }
 
+
+.recuperar-senha,.cadastro{
+    color: #000ff0;
+}
+
+
+
 .btn-enviar{
-    width: 80px;
+    width: 250px;
     height: 40px;
-    border-radius: 8px;
+    border-radius: 20px;
     border: none;
     background-color: black;
     color: var(--cor-p2);
@@ -35,14 +49,21 @@
 #email, #senha{
     border: none;
     border-bottom: 1px solid black;
+    border-radius: 2px;
+}
+
+#email,#senha{
+    border: 1px solid var(--cor-p1);
+    height: 30px;
+    width: 250px;
 }
 
 .fechar{
     position: absolute;
     z-index: 1000;
-    margin-top: 15px;
-    margin-left: 310px;
-    font-size: 30px;
+    margin-top: 11px;
+    margin-left: 325px;
+    font-size: 15px;
     background: none;
     border: none;
     cursor: pointer;
