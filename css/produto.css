@@ -13,6 +13,7 @@
 
 .img-esquerda img {
     width: 160px;
+    cursor: pointer;
 }
 
 .img-direita img {
