@@ -52,6 +52,19 @@
     font-weight: 700;
     font-style: normal;
     font-family: 'open sans' sans-serif;
+    align-items: center;
+}
+
+.preco-ant{
+    color: var(--cor-p5);
+}
+
+.preco-desc{
+    color: #ff3333;
+    background: rgba(255, 51, 51, 0.10);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding:4px 8px;
 }
 
 .cores-selecao button {
@@ -147,7 +160,7 @@
     }
 
     .precos{
-        font-size: 1.5rem;
+        font-size: 2rem;
 
     }
     .add-carrinho {
