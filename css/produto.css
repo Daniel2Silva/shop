@@ -147,15 +147,15 @@
     }
 
     .precos{
-        font-size: 1rem;
+        font-size: 1.5rem;
 
     }
     .add-carrinho {
-        width: 200px;
+       width: 200px;
     }
 }
 
-@media(max-width:1170px){
+@media(max-width:1000px){
     .container-produto{
         flex-direction: column;
     }
@@ -164,6 +164,23 @@
     }
     .img-esquerda{
         display: flex;
-        gap: 20px;
+        gap: 10px;
+    }
+}
+
+@media(max-width:600px){
+    .img-esquerda img{
+        min-width: 80px;
+    }
+
+    .img-direita img{
+        min-width: 300px;
+    }
+
+    .botao-quantia{
+        width: 120px;
+    }
+    .add-carrinho{
+        width: 170px;
     }
 }
